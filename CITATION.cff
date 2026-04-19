@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+authors:
+  - family-names: Khan
+    given-names: Newaz Ibrahim
+    orcid: ""
+title: "LULC Change Detection and Markov Chain Prediction — Dhaka District"
+version: 1.0.0
+date-released: 2025-01-01
+url: "https://github.com/newazkhn/FloodLULC-Dhaka-Markov"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Khan
+      given-names: Newaz Ibrahim
+  title: "Prediction of Land Use and Land Cover Changes in Dhaka City
+          Using Markov Chain Analysis on Google Earth Engine"
+  journal: "The Egyptian Journal of Remote Sensing and Space Sciences"
+  year: 2025
+  manuscript-id: "EJRS-D-25-00228"

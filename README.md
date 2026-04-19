@@ -74,14 +74,7 @@ install.packages(c("ggplot2", "scales"))
 
 ---
 
-## How to Run the Python Charts in Google Colab
 
-1. Go to [colab.research.google.com](https://colab.research.google.com)
-2. File → New Notebook
-3. Copy the contents of `python/LULC_Colab_Charts.py` into a cell
-4. Run the cell — charts will save to `My Drive/LULC_Charts/`
-
----
 
 ## Data Availability
 

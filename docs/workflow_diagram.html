@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Methodology Workflow</title>
+  <style>
+    body { 
+      font-family: Arial, Helvetica, sans-serif; 
+      background: #f8f9fa; 
+      margin: 40px; 
+    }
+    .container { 
+      max-width: 920px; 
+      margin: 0 auto; 
+      background: white; 
+      padding: 40px 30px; 
+      border-radius: 12px; 
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12); 
+    }
+    .title { 
+      text-align: center; 
+      font-size: 22px; 
+      font-weight: bold; 
+      color: #0c2c84; 
+      margin-bottom: 35px; 
+      padding-bottom: 15px; 
+      border-bottom: 4px solid #008000; 
+    }
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+    }
+    td { 
+      padding: 16px 20px; 
+      font-size: 17px; 
+      border: 2px solid #0c2c84; 
+      background: #ffffff; 
+      vertical-align: middle; 
+    }
+    .number { 
+      background: #008000; 
+      color: white; 
+      width: 48px; 
+      text-align: center; 
+      font-weight: bold; 
+      font-size: 20px; 
+      border-radius: 50%; 
+      padding: 8px 0; 
+    }
+    .step-text { 
+      font-weight: 600; 
+      color: #1a2a44; 
+    }
+    .arrow { 
+      text-align: center; 
+      font-size: 32px; 
+      color: #008000; 
+      padding: 8px 0; 
+      border: none; 
+      background: transparent; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="title">
+    Methodology Workflow<br>
+    LULC Change Detection and Markov Chain Prediction in Dhaka District<br>
+    using Google Earth Engine
+  </div>
+
+  <table>
+    <tr>
+      <td class="number">1</td>
+      <td class="step-text">Study Area Definition – Dhaka District</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">2</td>
+      <td class="step-text">Data Acquisition – Landsat 8 OLI (2015) & Landsat 9 OLI (2025), USGS Collection 2 Level 2</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">3</td>
+      <td class="step-text">Preprocessing – Cloud masking (QA_PIXEL), radiometric scaling, annual median composite</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">4</td>
+      <td class="step-text">Training Data Collection – Digitized samples (Water, Built-up, Green area)</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">5</td>
+      <td class="step-text">CART Classification – 6 spectral bands, 70:30 train/test split</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">6</td>
+      <td class="step-text">Accuracy Assessment – Confusion matrix, OA 95.9%, Kappa 0.93</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">7</td>
+      <td class="step-text">Classified LULC Maps – 2015 and 2025</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">8</td>
+      <td class="step-text">Post-Classification Change Detection & Area Calculation</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">9</td>
+      <td class="step-text">Markov Chain Modeling – Pixel-by-pixel transition probability matrix (2015→2025)</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">10</td>
+      <td class="step-text">Future Prediction – 2035 LULC map (business-as-usual scenario)</td>
+    </tr>
+    <tr><td colspan="2" class="arrow">↓</td></tr>
+
+    <tr>
+      <td class="number">11</td>
+      <td class="step-text">Outputs – Maps, tables, bar charts</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>

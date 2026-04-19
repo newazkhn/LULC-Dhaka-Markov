@@ -86,16 +86,7 @@ and are available upon request.
 
 ---
 
-## Citation
 
-If you use this code, please cite:
-
-> Khan, N.I. (2025). Prediction of Land Use and Land Cover Changes
-> in Dhaka City Using Markov Chain Analysis on Google Earth Engine.
-> *The Egyptian Journal of Remote Sensing and Space Sciences*.
-> DOI: [add DOI after acceptance]
-
----
 
 ## License
 
